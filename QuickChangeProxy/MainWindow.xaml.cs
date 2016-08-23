@@ -41,7 +41,7 @@ namespace QuickChangeProxy
                     lanvalue[i] = new LanValue();
                 }
                 lanvalue[0].server = "example.com";
-                lanvalue[0].port = "2525";
+                lanvalue[0].port = "8080";
                 lanvalue[0].over = true;
             }
             else
@@ -214,6 +214,13 @@ namespace QuickChangeProxy
             {
                 labelOverrideEdit.Content = "";
             }
+        }
+
+        //Menu処理
+        private void AboutClick(object sender, RoutedEventArgs e)
+        {
+            var aboutWindow = new AboutWindow();
+            aboutWindow.ShowDialog();
         }
     }
 }

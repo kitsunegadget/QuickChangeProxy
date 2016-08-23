@@ -8,11 +8,11 @@ using System.Windows;
 // アセンブリに関連付けられている情報を変更するには、
 // これらの属性値を変更してください。
 [assembly: AssemblyTitle("QuickChangeProxy")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("素早くプロキシの設定を変更します。")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("QuickChangeProxy")]
-[assembly: AssemblyCopyright("Copyright ©  2016")]
+[assembly: AssemblyCopyright("Copyright ©  2016  hitakiyu, Garakuta Gadget")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

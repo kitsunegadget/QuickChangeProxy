@@ -5,15 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QuickChangeProxy"
         mc:Ignorable="d"
-        Title="Quick Change Proxy" Height="325" Width="525" ResizeMode="CanMinimize">
-    <Grid Cursor="Arrow" Background="{DynamicResource {x:Static SystemColors.WindowBrushKey}}">
+        Title="Quick Change Proxy" Height="340" Width="525" ResizeMode="CanMinimize" Icon="quickchangeproxyicon.ico">
+    <Grid Cursor="Arrow" Background="{DynamicResource {x:Static SystemColors.WindowBrushKey}}" Margin="0,10,0,0">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Label x:Name="labelMain" Content="インターネットのプロキシを設定します。&#xA;他のプロキシが設定してある場合は上書きされるのでご注意ください。" Margin="35,10,135,0" Padding="5,0" Grid.ColumnSpan="2" Height="42" VerticalAlignment="Top"/>
-        <Button x:Name="buttonSet" Content="設定する" Margin="70,251,70,10" Grid.Column="1" Click="ButtonSetClick"/>
-        <Button x:Name="buttonClear" Content="設定解除" Margin="70,251,70,10" Click="ButtonClearClick" RenderTransformOrigin="0.5,1.442"/>
+        <Button x:Name="buttonSet" Content="設定する" Margin="69.5,251,70,10" Grid.Column="1" Click="ButtonSetClick"/>
+        <Button x:Name="buttonClear" Content="設定解除" Margin="70,251,69.5,10" Click="ButtonClearClick" RenderTransformOrigin="0.5,1.442"/>
         <Border BorderBrush="Black" BorderThickness="1" Height="90" Margin="20,50,20,0" VerticalAlignment="Top" Grid.ColumnSpan="2">
             <Grid Margin="-1,-1,1,-1">
                 <Label x:Name="labelEnable" Content="LANにプロキシサーバーを利用しない設定です。" Margin="31,21,79,0" Padding="5,0" Height="25" VerticalAlignment="Top"/>
@@ -24,12 +24,12 @@
                 <Button x:Name="buttonReload" Content="更新" Margin="398,59,10,10" Click="ButtonReload" RenderTransformOrigin="-1.273,0.581"/>
             </Grid>
         </Border>
-        <Border BorderBrush="Black" BorderThickness="1" Grid.ColumnSpan="2" Margin="20,145,20,71">
+        <Border BorderBrush="Black" BorderThickness="1" Grid.ColumnSpan="2" Margin="20,145,20,76">
             <Grid Margin="1,1,-1,-1">
                 <Label x:Name="label_Copy" Content="設定する項目" Padding="5,0" FontWeight="Bold" Height="24" VerticalAlignment="Top" Margin="0,0,129,0"/>
-                <Label x:Name="labelServerEdit" Content="アドレス：" Margin="42,17,82,33" Padding="5,0"/>
-                <Label x:Name="labelPortEdit" Content="ポート：" Margin="42,32,82,13" Padding="5,0"/>
-                <Label x:Name="labelOverrideEdit" Content="ローカルアドレスにはプロキシサーバーを利用しない" Margin="42,45,82,5" Padding="5,0"/>
+                <Label x:Name="labelServerEdit" Content="アドレス：" Margin="42,17,82,28" Padding="5,0"/>
+                <Label x:Name="labelPortEdit" Content="ポート：" Margin="42,32,82,10" Padding="5,0"/>
+                <Label x:Name="labelOverrideEdit" Content="ローカルアドレスにはプロキシサーバーを利用しない" Margin="42,45,82,0" Padding="5,0"/>
                 <Button x:Name="optionButton" Content="オプション" Margin="398,35,10,10" Click="openSetting"/>
             </Grid>
         </Border>
@@ -38,6 +38,13 @@
             <RadioButton x:Name="radioButton_Copy1" Content="設定3" HorizontalAlignment="Left" Margin="140,1,0,0" RenderTransformOrigin="0.403,0.264" GroupName="RadioSetting" Width="60" Checked="radioButton2_Checked" Height="16" VerticalAlignment="Top"/>
             <RadioButton x:Name="radioButton_Copy2" HorizontalAlignment="Left" Margin="205,1,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.403,0.264" GroupName="RadioSetting" Width="90" Height="16" Content="設定4" Checked="radioButton3_Checked"/>
             <RadioButton x:Name="radioButton" Content="設定1" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.403,0.264" GroupName="RadioSetting" Width="60" Height="16" Margin="10,0,0,0" IsChecked="True" Checked="radioButton0_Checked"/>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="20" Margin="0,-10,0,0" VerticalAlignment="Top" Width="519" Grid.ColumnSpan="2">
+            <Menu x:Name="menu" VerticalAlignment="Top" HorizontalAlignment="Left" Height="20" Width="519">
+                <MenuItem Header="Help">
+                    <MenuItem Header="About" Click="AboutClick"/>
+                </MenuItem>
+            </Menu>
         </Grid>
     </Grid>
 </Window>

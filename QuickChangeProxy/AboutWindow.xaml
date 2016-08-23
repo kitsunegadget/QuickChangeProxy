@@ -1,0 +1,30 @@
+﻿<Window x:Class="QuickChangeProxy.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuickChangeProxy"
+        mc:Ignorable="d"
+        Title="About" Height="300" Width="300" Icon="quickchangeproxyicon.ico" ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Canvas Margin="96,10,96,159" Grid.ColumnSpan="2">
+            <Canvas.Background>
+                <ImageBrush ImageSource="quickchangeproxyicon.ico"/>
+            </Canvas.Background>
+        </Canvas>
+        <Label x:Name="label" Content="Quick Change Proxy" Margin="80,115,79,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="26"/>
+        <Label x:Name="label_Copy" Content="Version 1.0" Margin="0,132,48,0" VerticalAlignment="Top" Height="26" Grid.Column="1"/>
+        <Label x:Name="label_Copy1" Content="hitakiyu" Margin="30,163,66,0" VerticalAlignment="Top" Height="26" Grid.ColumnSpan="2"/>
+        <Label x:Name="label_Copy2" Content="Twitter:" Margin="40,189,42,0" VerticalAlignment="Top" Height="26"/>
+        <TextBlock x:Name="textBlock" Margin="89,194,31,52" TextWrapping="Wrap" Grid.ColumnSpan="2">
+            <Hyperlink NavigateUri="https://twitter.com/yuztailsfox" RequestNavigate="Hyperlink_Request">
+                https://twitter.com/yuztailsfox
+            </Hyperlink>
+        </TextBlock>
+
+    </Grid>
+</Window>
