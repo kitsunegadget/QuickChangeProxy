@@ -1,6 +1,6 @@
 {
   "name": "Quick Change Proxy",
   "tagline": "手動プロキシサーバー設定を素早く行うためのWindowsアプリケーション。",
-  "body": "### How to Set Proxy\r\n+ 「オプション」ボタンからダイアログが開くので、利用したい手動プロキシサーバーの設定を入力します。\r\n+ プロキシ設定は最大4つまで保存しておくことができます。\r\n+ 設定を保存すると同じフォルダ内に`settings.config`が作成されます。\r\n+ メインウインドウに戻り、設定１～設定４のボタンがあるので、「設定する項目」の欄を見ながら使いたい設定を選んで「設定する」ボタンを押すと反映されます。\r\n+ 手動プロキシサーバーを利用しない場合は「設定解除」ボタンを押します。\r\n+ 「現在の状態」の欄を見ることで、今現在の手動プロキシサーバー利用の状態を確認できます。\r\n\r\n### Support or Contact\r\nなにかあればこちらへ  [https://twitter.com/yuztailsfox](https://twitter.com/yuztailsfox)\r\n\r\n### Version Log\r\n* 1.0 (2016.08.24)\r\n + Release.\r\n",
+  "body": "### How to Set Proxy\r\n+ 「オプション」ボタンからダイアログが開くので、利用したい手動プロキシサーバーの設定を入力します。\r\n+ プロキシ設定は最大4つまで保存しておくことができます。\r\n+ 設定を保存すると同じフォルダ内に`settings.config`が作成されます。\r\n+ メインウインドウに戻り、設定１～設定４のボタンがあるので、「設定する項目」の欄を見ながら使いたい設定を選んで「設定する」ボタンを押すと反映されます。\r\n+ 手動プロキシサーバーを利用しない場合は「設定解除」ボタンを押します。\r\n+ 「現在の状態」の欄を見ることで、今現在の手動プロキシサーバー利用の状態を確認できます。\r\n\r\n### Download\r\n[Quick Change Proxy v1.0](https://github.com/yuztailsfox/QuickChangeProxy/releases/tag/v1.0)\r\n\r\n### Support or Contact\r\nなにかあればこちらへ  [https://twitter.com/yuztailsfox](https://twitter.com/yuztailsfox)\r\n\r\n### Version Log\r\n* 1.0 (2016.08.24)\r\n + Release.\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
