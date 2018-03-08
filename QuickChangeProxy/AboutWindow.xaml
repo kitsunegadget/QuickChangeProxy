@@ -18,11 +18,11 @@
         </Canvas>
         <Label x:Name="label" Content="Quick Change Proxy" Margin="80,115,79,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="26"/>
         <Label x:Name="label_Copy" Content="Version 1.0" Margin="0,132,48,0" VerticalAlignment="Top" Height="26" Grid.Column="1"/>
-        <Label x:Name="label_Copy1" Content="hitakiyu" Margin="30,163,66,0" VerticalAlignment="Top" Height="26" Grid.ColumnSpan="2"/>
+        <Label x:Name="label_Copy1" Content="Created by Garakuta Gadget" Margin="30,163,66,0" VerticalAlignment="Top" Height="26" Grid.ColumnSpan="2"/>
         <Label x:Name="label_Copy2" Content="Twitter:" Margin="40,189,42,0" VerticalAlignment="Top" Height="26"/>
         <TextBlock x:Name="textBlock" Margin="89,194,31,52" TextWrapping="Wrap" Grid.ColumnSpan="2">
-            <Hyperlink NavigateUri="https://twitter.com/yuztailsfox" RequestNavigate="Hyperlink_Request">
-                https://twitter.com/yuztailsfox
+            <Hyperlink NavigateUri="https://twitter.com/yuzmoz" RequestNavigate="Hyperlink_Request">
+                https://twitter.com/yuzmoz
             </Hyperlink>
         </TextBlock>
 

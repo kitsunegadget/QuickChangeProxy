@@ -222,5 +222,19 @@ namespace QuickChangeProxy
             var aboutWindow = new AboutWindow();
             aboutWindow.ShowDialog();
         }
+
+        // タスクトレイからの実行用
+        public void Notify_Set_Click(int n)
+        {
+            WriteRegistry(n);
+            //MessageBox.Show("設定しました！");
+            ReadRegistry();
+        }
+        public void Notify_Clear_Click()
+        {
+            ClearRegistry();
+            //MessageBox.Show("設定解除しました！");
+            ReadRegistry();
+        }
     }
 }
