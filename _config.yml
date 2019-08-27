@@ -1,0 +1,8 @@
+title: Quick Change Proxy
+description: 手動プロキシサーバー設定を素早く行うためのWindowsアプリケーション。
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-midnight
+
+gems:
+  - jekyll-mentions
