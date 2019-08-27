@@ -10,7 +10,7 @@
 [Quick Change Proxy v1.0](https://github.com/yuztailsfox/QuickChangeProxy/releases/tag/v1.0)
 
 ### Support or Contact
-なにかあればこちらへ  [https://twitter.com/yuztailsfox](https://twitter.com/yuztailsfox)
+なにかあればこちらへ  [https://twitter.com/kitsunegadget](https://twitter.com/kitsunegadget)
 
 ### Version Log
 * 1.0 (2016.08.24)
